@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag's place</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .connect {
+            margin-top: 20px;
+        }
+
+        .connect a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 8px 16px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .connect a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi, I am Anurag.</h1>
+    <div class="connect">
+        <!-- #facebook #instagram #twitter #linkedin -->
+        <h2>Connect with me here:</h2>
+        <a href="https://www.facebook.com/Anurag.yaadv/" target="_blank">Facebook</a>
+        <a href="https://twitter.com/yaadav_anurag" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/anurag-iitg/" target="_blank">LinkedIn</a>
+        <a href="https://anuvizon.blogspot.com/" target="_blank">Blog</a>
+    </div>
+    <div class="articles">
+        <h2>Here is some good stuff.</h2>
+        <li>
+            <a href="https://www.marxists.org/archive/bhagat-singh/" target="_blank">Literature of Bhagat Singh.</a>
+            
+
+        </li>
+    </div>
+</body>
+</html>
