@@ -50,6 +50,7 @@
         <h2>Here is some good stuff.</h2>
         <li>
             <a href="https://www.marxists.org/archive/bhagat-singh/" target="_blank">Literature of Bhagat Singh.</a>
+            <a href="https://www.marxists.org/archive/bhagat-singh/" target="_blank">Literature of Bhagat Singh 2.</a>
             
 
         </li>
