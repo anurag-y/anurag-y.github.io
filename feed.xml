@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Anurag Yadav</title>
+    <link>https://anurag-y.github.io</link>
+    <description>Raw writings on technology, books, and philosophy</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <generator>GitHub Pages</generator>
+    <item>
+      <title>This Is for Everyone</title>
+      <link>https://anurag-y.github.io/everyone.html</link>
+      <pubDate>Mon, 14 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://anurag-y.github.io/everyone.html</guid>
+      <description>A review of "This is for Everyone" by Sir Tim Berners-Lee - a biography of the web and its inventor. Explores the history of technology, the evolution of the web, and the future of AI-web interaction.</description>
+      <content:encoded><![CDATA[
+        <p>So, I just finished reading "This is for Everyone" by Sir Tim Berners-Lee.</p>
+        
+        <p>I was 2/3 done by Christmas and was thinking of speed reading it in next 3-4 days. Then I found an interesting essay which prompted me to keep going slow.</p>
+        
+        <p>"This Is for Everyone" is a biography of the web, written by its inventor, Sir Tim Berners-Lee. In his autobiography, Berners-Lee gives us a view of the web from its birth to its current form.</p>
+        
+        <p>If you are interested in technology, the history of technology, or the sociology of technology, this book has something for you. Technical minds will appreciate how he describes the process of inventing the web, which, in hindsight, appears simple and elegant.</p>
+        
+        <p>It is interesting to note how different protocols were competing to become the universal standard, and why and how the web won; it had a lot to do with being egalitarian and keeping a greater purpose in mind instead of profiteering.</p>
+        
+        <p>Those who reminisce about the "good old web", a time when social websites were a delight to use and not just personalized, real-time broadcast platforms designed to keep you glued to the screen, will see a ray of hope in what is currently being done by a few believers to restore sanity to the web.</p>
+        
+        <p>As the traditional web is increasingly accessed through AI agents rather than traditional surfing, the nature of the web is undergoing another transformation. Tim is an evangelist of a new paradigm that would nudge and facilitate AI to work for us, enabling us to act according to our "intention" rather than sucking our "attention" to dupe us.</p>
+        
+        <p>The book is easy to read. Reading a firsthand account from such a great person was a delight.</p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Kafka On The Shore - A review(?)</title>
+      <link>https://anurag-y.github.io/kafka.html</link>
+      <pubDate>Sat, 12 Apr 2024 00:00:00 GMT</pubDate>
+      <guid>https://anurag-y.github.io/kafka.html</guid>
+      <description>A personal review of "Kafka On The Shore" by Haruki Murakami. Explores the dreamlike quality of the novel, its magical realism, and deeper philosophical questions about meaning and existence.</description>
+      <content:encoded><![CDATA[
+        <p>Today, I finished reading 'Kafka On The Shore' by Murakami. It was my second Murakami book, the first one being Men Without Women. I am not very good at writing book reviews using specialised words, so instead, I would write like I am telling a friend what the book is like.</p>
+        
+        <p>Well, the novel is dreamlike. You say what do you mean by dreamlike? It is like a dream. You see many things in a dream that are not ordinary. That is, when viewed from an awakened state, things look absurd. You see past and present intertwined; characters and events don't respect space-time. You may remember a dream of something akin to you attending a wedding, but all the people were from your school, and maybe the location was your college, and people were probably wearing sportswear. But when you were in that dream, it didn't look like things were out of the ordinary. There is something similar in the novel. Fishes and leeches rain from the sky; time freezes, and a man can talk to a cat or stone. A boy named Crow accompanies the protagonist, but you don't quite know who he is. Or is he a boy or a crow? Is he a shadow of Kafka or his subconscious or what?</p>
+        
+        <p>The book is spread across about 600 pages. It is divided into more than 40 chapters, which alternate between two parallel stories. Interesting coincidences make you feel these two parallel stories are the same and connected. The story is an intersection of history, fiction and myth. There are rich references to music. There is an underworld. There is a ghost. Boundaries between real people and ghosts, dream and reality, get blurred. A man makes flutes out of cat souls. He aims to make some big, huge flute of cat souls. But why?</p>
+        
+        <p>Sometimes, you feel that everything is predestined and hopelessly progressing towards the inevitable, as if an object were falling into a black hole. Yet, other times, you see characters defying what was supposed to be unavoidable (or do they?).</p>
+        
+        <p>What I make out of this book is not something I can not tell very well. The book might provoke you to ask some questions. When we read stories in primary school, they are supposed to have a moral lesson or something. But when you see the real world, is it supposed to be in the format of primary school stories where you have a conclusion and a lesson at the end of the book? Whatever happened at the end may have been the conclusion, but what does it mean? Isn't an attempt to derive meaning from all events our invention? What is the meaning of a flower blooming or a bird singing? What moral lessons or life lessons do they teach? They don't. It is us who may do mental gymnastics to find out a meaning. There are characters you love, maybe one you may hate about many others whom you don't even understand, let alone love or hate.</p>
+        
+        <p>If you are someone who has been reading for some time, I would recommend it to you. Well, I am not quite sure if a long novel of magical realism is something a beginner might want to start from. If you want to get some taste of what the book might be like, I recommend reading some short stories from Murakami's book 'Men Without Women'. Overall, Kafka On The Shore is a fantastic book which makes you think and wonder.</p>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
