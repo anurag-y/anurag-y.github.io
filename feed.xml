@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anurag Yadav</title>
+    <atom:link href="https://anurag-y.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <link>https://anurag-y.github.io</link>
     <description>Raw writings on technology, books, and philosophy</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 00:00:00 GMT</lastBuildDate>
     <generator>GitHub Pages</generator>
     <item>
       <title>This Is for Everyone</title>
       <link>https://anurag-y.github.io/everyone.html</link>
-      <pubDate>Mon, 14 Jan 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
       <guid>https://anurag-y.github.io/everyone.html</guid>
       <description>A review of "This is for Everyone" by Sir Tim Berners-Lee - a biography of the web and its inventor. Explores the history of technology, the evolution of the web, and the future of AI-web interaction.</description>
       <content:encoded><![CDATA[
