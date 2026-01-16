@@ -1,106 +1,97 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 30;
+:root {
+    --background-color: #000;
+    --text-color: #0f0;
+    --link-color: #0f0;
+    --link-hover-color: #fff;
+    --border-color: #0f0;
+}
+
+body.light-theme {
+    --background-color: #f0f0f0;
+    --text-color: #000;
+    --link-color: #0000ff;
+    --link-hover-color: #ff0000;
+    --border-color: #000;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-shadow: 0 0 2px var(--text-color);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.me {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    margin-bottom: 40px;
 }
 
-.profile-pic {
-    flex: 1;
-    max-width: 50%;
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
 }
 
-.profile-pic img {
-    max-width: 100%;
-    height: auto;
+nav a {
+    color: var(--link-color);
+    text-decoration: underline;
+    margin-left: 20px;
 }
 
-.about-me {
-    flex: 1;
-    max-width: 50%;
-    padding: 20px;
+nav a:hover {
+    color: var(--link-hover-color);
+    background-color: var(--link-color);
 }
 
-.content {
-    background-color: #f4f4f4;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.my-work,
-.others-work {
-    flex: 1;
-    max-width: 50%;
-    padding: 20px;
+main h2 {
+    font-size: 20px;
+    text-transform: uppercase;
     margin-bottom: 20px;
-    border-radius: 5px;
-    border-style: none;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
 }
 
-
-
-
-.about-me a {
-    flex: 1;
-    display: inline-block;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 8px 16px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+.link-list dt {
+    margin-bottom: 5px;
 }
 
-.about-me a:hover {
-    background-color: #555;
+.link-list dd {
+    padding-left: 20px;
+    margin-bottom: 15px;
 }
 
-.lists {
-    list-style: none;
-    margin-top: 10px;
-}
-.lists dt {
-    margin-left: 0;
-    padding-left: 0;
-    margin-top: 10px;
+.link-list a {
+    color: var(--link-color);
+    text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+.link-list a:hover {
+    color: var(--link-hover-color);
+    background-color: var(--link-color);
+}
 
-    .me,
-    .content {
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-    }
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    font-size: 14px;
+}
 
-    .profile-pic, .about-me {
-        max-width: 100%;
-    }
-
-    .my-work,
-    .others-work {
-        max-width: 100%;
-    }
+#theme-switcher {
+    cursor: pointer;
+    text-decoration: underline;
 }

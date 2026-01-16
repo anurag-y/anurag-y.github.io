@@ -3,60 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Anurag's</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Anurag Yadav</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Anurag Yadav</h1>
-    </header>
-    <section class="me">
-        <div class="profile-pic">
-            <img src="pic1bw.png" alt="Profile Picture">
-        </div>
-        <div class="about-me">
-            <h1>Hi, I am Anurag.</h1>
-            <p>I am an engineer. I studied Electronics and Communication Engineering at IIT Guwahati.
-                I am incredibly passionate about technology and its application and fascinated by its power to change the world.
-                I am particularly interested in emerging advances in AI and it potential applications to transform the world.<br><br>
-                In my free time I read and explore music, history and philosophy and sometimes write stuff.
+    <div class="container">
+        <header>
+            <h1><a href="/" style="text-decoration: none; color: var(--text-color);">Anurag Yadav</a></h1>
+            <nav>
+                <a href="/#writings">Writings</a>
+                <a href="/#links">Links</a>
+                <span id="theme-switcher">[Toggle Theme]</span>
+            </nav>
+        </header>
+        <main>
+            <h2>About Me</h2>
+            <p>I write about technology, books, and philosophy. Welcome to my corner of the internet.</p>
             
-                <br><br>
-                <h3 id="Connect">Connect with me</h3>
-                    <a href="https://github.com/anurag-y">GitHub</a>
-                    <a href="https://www.facebook.com/Anurag.yaadv/" target="_blank">Facebook</a>
-                    <a href="https://twitter.com/yaadav_anurag" target="_blank">Twitter</a>
-                    <a href="https://anuvizon.blogspot.com/" target="_blank">Blog</a>
-                    <a href="https://www.linkedin.com/in/anurag-iitg/" target="_blank">LinkedIn</a>
-                    
-            </p>
-        </div>
-    </section>
-    <section class="content">
-        <div class="my-work">
-            <h2>Have a look at some of my raw writings</h2>
-            <dl class="lists">
-                <dt><a href="/kafka.html">Kafka On the Shore</a></dt>
-                <dt><a href="/everyone.html">This is for Everyone</a></dt>           
-                    
+            <h2 id="writings">Writings</h2>
+            <dl class="link-list">
+                <dt><a href="/blogs/everyone.html">This Is for Everyone</a></dt>
+                <dd>A review of the book by Tim Berners-Lee, the inventor of the World Wide Web.</dd>
+                <dt><a href="/blogs/kafka.html">Kafka On The Shore - A review(?)</a></dt>
+                <dd>A review of the book by Haruki Murakami.</dd>
             </dl>
-        </div>
-        <div class="others-work">
-            <h2>Some of interesting things I found on internet</h2>
-            <dl class="lists">
-                <dt><a href="https://paulgraham.com/articles.html">Essays by Paul Graham</a></dt>
-                <dd>Paul Graham is a co-founder of Y Combinator, a seed-stage venture fund. He has written several essays on startups, programming and life.
-                    These essays are very thought provoking and worth reading.</dd>
+
+            <h2 id="links">Interesting Links</h2>
+            <dl class="link-list">
+                <dt><a href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer">Hacker News</a></dt>
+                <dd>A convenient place for getting latest tech updates and getting introduced to new ideas.</dd>
+                <dt><a href="https://paulgraham.com/articles.html" target="_blank" rel="noopener noreferrer">Essays by Paul Graham</a></dt>
+                <dd>A collection of essays on startups, technology, and life.</dd>
+                <dt><a href="https://invertedpassion.com/" target="_blank" rel="noopener noreferrer">Paras Chopra's Website</a></dt>
+                <dd>Essays on business, psychology, and philosophy.</dd>
             </dl>
-            <dl class="lists">
-                <dt><a href="https://invertedpassion.com/">Paras Chopra's Website</a></dt>
-                <dd>
-                    Paras is an entrepreneur. I found essays on the website worth reading.
-                </dd>
-            </dl>
-        </div>
-    </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Anurag Yadav | <a href="/feed.xml" target="_blank">RSS</a></p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
